@@ -4,6 +4,20 @@ public class Student1 {
 	private int age;
 	private String gender;
 	private int usn;
+	private String address;
+	private String pincode;
+	public String getAddress() {
+		return address;
+	}
+	public void setAddress(String address) {
+		this.address = address;
+	}
+	public String getPincode() {
+		return pincode;
+	}
+	public void setPincode(String pincode) {
+		this.pincode = pincode;
+	}
 	public void setData(String m,int n,String o,int p)
 	{
 		name= m;

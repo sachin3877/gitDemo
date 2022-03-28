@@ -8,6 +8,13 @@ public class Student1App {
 		System.out.println(sa.getAge());
 		System.out.println(sa.getGender());
 		System.out.println(sa.getUsn());
+		
+		Student1 sa1 =new Student1();
+		sa.setData("sachin", -35, "mal", 45869);
+		System.out.println(sa1.getName());
+		System.out.println(sa1.getAge());
+		System.out.println(sa1.getGender());
+		System.out.println(sa1.getUsn());
 	}
 
 }
